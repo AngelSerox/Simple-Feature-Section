@@ -19,6 +19,7 @@ body {
     padding-bottom: 50px;
     justify-content: center; /* Centrar los elementos horizontalmente */
     align-items: center;     /* Centrar los elementos verticalmente */
+    gap: 30px; /* Agregar espacio entre los divs (aumenta el valor según sea necesario) */
 }
 
 /* Ajustes generales */
@@ -58,7 +59,7 @@ p {
     height: 400px;
     width: 80%; /* Ajustar el tamaño de los divs según el contenedor */
     border-radius: 5%;
-    padding: 15px;
+    padding: 20px;
     align-items: flex-start; /* Alinear el contenido a la izquierda */
     justify-content: center; /* Asegurar que todo el contenido se alinee verticalmente dentro del div */
 }
