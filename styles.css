@@ -13,7 +13,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Crear 3 columnas de igual tamaño */
     width: 90%;
-    margin-top: 20px;
+    margin-top: 10px;
     max-width: 1000px;
     padding-left: 50px;
     padding-bottom: 50px;
@@ -55,6 +55,7 @@ p {
     display: flex;
     flex-direction: column; /* Alineación vertical de los elementos */
     background-color: #212936;
+    height: 400px;
     width: 80%; /* Ajustar el tamaño de los divs según el contenedor */
     border-radius: 5%;
     padding: 15px;
@@ -68,7 +69,7 @@ p {
     margin-bottom: 10px;
     border-radius: 100%;
     width: 12%;
-    padding: 7px;
+    padding: 10px;
 }
 
 #Mano_img {
