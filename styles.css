@@ -1,0 +1,102 @@
+/* Centrar el contenido de la página usando grid */
+body {
+    background-color: #121826;
+    background-image: url("Background_image.svg");
+    display: grid;
+    place-items: center; /* Centrar el contenido horizontal y verticalmente */
+    height: 100vh;       /* Asegurarse de que el body ocupe toda la pantalla */
+    font-family: Outfit, sans-serif;
+}
+
+/* Contenedor general con grid */
+#Contenedor_General {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Crear 3 columnas de igual tamaño */
+    width: 90%;
+    margin-top: 20px;
+    max-width: 1000px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    justify-content: center; /* Centrar los elementos horizontalmente */
+    align-items: center;     /* Centrar los elementos verticalmente */
+}
+
+/* Ajustes generales */
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #E5E7EB;
+    text-align: center;
+    width: 400px;
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #E5E7EB;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #9DA3AE;
+    width: 85%;
+}
+
+#out {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #9DA3AE;
+    text-align: center;
+}
+
+/* Estilo para los divs dentro del contenedor general */
+#Mano, #Red, #Texto {
+    display: flex;
+    flex-direction: column; /* Alineación vertical de los elementos */
+    background-color: #212936;
+    width: 80%; /* Ajustar el tamaño de los divs según el contenedor */
+    border-radius: 5%;
+    padding: 15px;
+    align-items: flex-start; /* Alinear el contenido a la izquierda */
+    justify-content: center; /* Asegurar que todo el contenido se alinee verticalmente dentro del div */
+}
+
+/* Estilos para los íconos dentro de los divs */
+#Mano_img, #Red_img, #Texto_img {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    border-radius: 100%;
+    width: 12%;
+    padding: 7px;
+}
+
+#Mano_img {
+    background-color: #FBE5E6;
+}
+
+#Red_img {
+    background-color: #DEE9FC;
+}
+
+#Texto_img {
+    background-color: #FCEED8;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 95%;
+    height: auto;
+    margin: 0 auto; /* Centrando la imagen grande */
+    border-radius: 5%;
+    display: block;
+}
